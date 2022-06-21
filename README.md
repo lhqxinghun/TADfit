@@ -77,11 +77,11 @@ end <- 48000000
 TADs <- calltad(dirin, resolution, start, end)  #Other parameters are default
 ```
 ## Reference
-xxx
-
+Liu, E., Lyu, H., Peng, Q. et al. TADfit is a multivariate linear regression model for profiling hierarchical chromatin domains on replicate Hi-C data. Commun Biol 5, 608 (2022).
 
 ## Contact
-xxx
+hongqianglv@xjtu.edu.cn
+liuerhu@stu.xjtu.edu.cn
 
 ## Update
 Compared to TADfit1.1, the efficiency of this TADfit1.2 has been greatly improved by defaultly limiting the maximum size of the TADs to 200 bins, minimum size of the TADs to 3 bins, and removing redundant calculations without reducing the accuracy of the model.
